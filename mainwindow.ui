@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1105</width>
+    <height>1021</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="Checkin">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1E90FF;  /* Dodger Blue */
+    border: 2px solid #1C86EE;  /* Steel Blue */
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #63B8FF;  /* Light Sky Blue */
+}
+QPushButton:pressed {
+    background-color: #1C86EE;  /* Steel Blue */
+    padding-left: 12px;
+    padding-top: 12px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Check İn</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Checkout">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #FF6347;  /* Tomato */
+    border: 2px solid #CD5C5C;  /* Indian Red */
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #FF7F50;  /* Coral */
+}
+QPushButton:pressed {
+    background-color: #CD5C5C;  /* Indian Red */
+    padding-left: 12px;
+    padding-top: 12px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Check Out</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Extra">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #32CD32;  /* Lime Green */
+    border: 2px solid #228B22;  /* Forest Green */
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #66CDAA;  /* Medium Aquamarine */
+}
+QPushButton:pressed {
+    background-color: #228B22;  /* Forest Green */
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>Extra</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Kaynak.qrc">:/Images/ai2.jpg</pixmap>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1105</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Kaynak.qrc"/>
+ </resources>
+ <connections/>
+</ui>

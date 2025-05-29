@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/ai2.jpg</file>
+        <file>Images/cola.png</file>
+        <file>Images/fanta.jpg</file>
+        <file>Images/gofret.jpg</file>
+        <file>Images/kahve.jpg</file>
+        <file>Images/kebab.png</file>
+        <file>Images/kraker.jpg</file>
+        <file>Images/mant.jpg</file>
+        <file>Images/cay.jpg</file>
+        <file>Images/Dondurma.jpg</file>
+        <file>Images/hamburger.png</file>
+        <file>Images/pizza.jpg</file>
+        <file>Images/cips.jpg</file>
+    </qresource>
+</RCC>
